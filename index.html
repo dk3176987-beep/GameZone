@@ -1,0 +1,87 @@
+<!DOCTYPE html>
+<html lang="hi">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+
+    <title>GameZone - Play Free Online Games</title>
+
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+
+    <header class="navbar">
+        <a href="#" class="logo">🎮 GameZone</a>
+
+        <nav>
+            <a href="#home">Home</a>
+            <a href="#games">Games</a>
+            <a href="#about">About</a>
+        </nav>
+    </header>
+
+    <main>
+        <section class="hero" id="home">
+            <p class="tagline">YOUR NEXT GAMING DESTINATION</p>
+
+            <h1>Play More.<br>
+                <span>Have More Fun.</span>
+            </h1>
+
+            <p>
+                Discover exciting free games and challenge your skills.
+            </p>
+
+            <a href="#games" class="play-button">
+                Explore Games 🎮
+            </a>
+        </section>
+
+        <section class="games-section" id="games">
+
+            <div class="section-heading">
+                <div>
+                    <p class="tagline">GAME LIBRARY</p>
+                    <h2>Explore Games</h2>
+                </div>
+            </div>
+
+            <input
+                type="search"
+                id="gameSearch"
+                placeholder="Search your favourite game..."
+                aria-label="Search games"
+            >
+
+            <div class="game-grid" id="gameGrid"></div>
+            <div id="gameArea" hidden>
+    <h2 id="gameTitle">Game</h2>
+
+    <button id="closeGame">✖ Close Game</button>
+
+    <div id="gameContainer"></div>
+</div>
+
+            <p id="noResults" hidden>
+                No games found. Try another search.
+            </p>
+
+        </section>
+
+        <section class="about" id="about">
+            <h2>Welcome to GameZone</h2>
+            <p>
+                Your place to discover and enjoy browser games.
+                Play, improve your skills and have fun!
+            </p>
+        </section>
+    </main>
+
+    <footer>
+        <p>© 2026 GameZone. All rights reserved.</p>
+    </footer>
+
+    <script src="script.js"></script>
+
+</body>
+</html>
